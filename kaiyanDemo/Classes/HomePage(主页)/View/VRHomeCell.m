@@ -11,13 +11,7 @@
 #import "UIImageView+WebCache.h"
 
 @interface VRHomeCell ()
-@property (nonatomic, strong) UIImageView *picture;
 
-@property (nonatomic, strong) UILabel *titleLabel;
-
-@property (nonatomic, strong) UILabel *littleLabel;
-
-@property (nonatomic, strong) UIView *coverview;
 @end
 
 @implementation VRHomeCell

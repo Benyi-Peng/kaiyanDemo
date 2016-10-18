@@ -10,6 +10,13 @@
 @class EveryDayModel;
 @interface VRHomeCell : UITableViewCell
 
+@property (nonatomic, strong) UIImageView *picture;
+
+@property (nonatomic, strong) UILabel *titleLabel;
+
+@property (nonatomic, strong) UILabel *littleLabel;
+
+@property (nonatomic, strong) UIView *coverview;
 
 @property (nonatomic, strong) EveryDayModel *model;
 
